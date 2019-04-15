@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Feed from "./Feed";
 
 function App(){
+
   return (
     <div>
       <Navbar/>
