@@ -1,41 +1,24 @@
 
 import React from "react";
+import Search from "./Search";
+import Tweet from "./Tweet";
+import NavButtons from "./NavButtons";
+
+
+
+
 
 function Navbar(){
-  const stylesNav = {
+  const test = {
     display: 'flex',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    width: '100%',
-  }
-  const beginSection = {
-    display: 'flex',
-    flexDirection: 'row',
-    // border: '1px solid black',
     justifyContent: 'space-around',
-    width: '30vw',
-  }
 
-  const border = {
-    border: '1px solid black',
-    padding: '5px 13px',
   }
-
   return (
-    <div>
-      <div style={stylesNav}>
-        <div style={beginSection}>
-          <h2 style={border}>Home</h2>
-          <h2 style={border}>Notifications</h2>
-          <h2 style={border}>Messages</h2>
-        </div>
-        <div>
-          <input type="text" placeholder="Search"></input>
-          <input type="text" placeholder="Tweet"></input>
-        </div>
-
-      </div>
+    <div style={test}>
+        <NavButtons/>
+        <Search/>
+        <Tweet/>
       <hr/>
     </div>
 
