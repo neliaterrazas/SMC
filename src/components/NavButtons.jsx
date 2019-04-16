@@ -6,10 +6,16 @@ import React from 'react';
 function NavButtons() {
 
   const navStyle = {
-    border: '1px #cccccc solid',
+    border: '1px #349cdf solid',
+    borderRadius: '8px',
     padding: '5px',
     textDecoration: 'none',
-    color: 'gray'
+    color: 'gray',
+    marginRight: '25px',
+    height: '10vh',
+    fontFamily: 'monospace',
+    fontSize: '16px'
+
   }
   return (
     <div>

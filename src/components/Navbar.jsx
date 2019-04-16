@@ -12,7 +12,6 @@ function Navbar(){
   const test = {
     display: 'flex',
     justifyContent: 'space-around',
-
   }
   return (
     <div style={test}>
